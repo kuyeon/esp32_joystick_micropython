@@ -120,13 +120,3 @@ joy.calibrate()
 from joystick import main
 main()
 ```
-
-## 📄 라이센스
-
-이 프로젝트는 MIT 라이센스 하에 배포됩니다.
-
----
-
-**작성자**: ESP32-S3 Joystick Library  
-**버전**: 1.0.0  
-**최종 업데이트**: 2024년
