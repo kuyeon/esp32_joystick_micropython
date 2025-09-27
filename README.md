@@ -2,6 +2,13 @@
 
 ESP32-S3 보드용 조이스틱 모듈 라이브러리입니다.
 
+## 📋 시스템 요구사항
+
+- **보드**: ESP32-S3
+- **펌웨어**: MicroPython v1.26.1
+- **펌웨어 파일**: `ESP32_GENERIC_S3-20250911-v1.26.1.bin`
+- **Python**: MicroPython 3.x
+
 ## 📌 하드웨어 연결
 
 ```
@@ -15,10 +22,15 @@ SW           -> GPIO11
 
 ## 🚀 빠른 시작
 
-### 1. 파일 업로드
+### 1. 펌웨어 설치
+ESP32-S3에 MicroPython 펌웨어를 설치합니다:
+- 펌웨어 파일: `ESP32_GENERIC_S3-20250911-v1.26.1.bin`
+- 설치 도구: esptool.py 또는 ESP32 Flash Tool
+
+### 2. 라이브러리 업로드
 `joystick.py` 파일을 ESP32-S3에 업로드합니다.
 
-### 2. 기본 사용법
+### 3. 기본 사용법
 ```python
 from joystick import Joystick
 
