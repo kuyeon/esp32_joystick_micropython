@@ -7,7 +7,6 @@ ESP32-S3 보드용 조이스틱 모듈 라이브러리입니다.
 - **보드**: ESP32-S3
 - **펌웨어**: MicroPython v1.26.1
 - **펌웨어 파일**: `ESP32_GENERIC_S3-20250911-v1.26.1.bin`
-- **Python**: MicroPython 3.x
 
 ## 📌 하드웨어 연결
 
