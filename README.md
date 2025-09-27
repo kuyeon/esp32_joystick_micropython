@@ -5,7 +5,8 @@ ESP32-S3 보드용 조이스틱 모듈 라이브러리입니다.
 ## 📸 이미지
 
 ### 하드웨어 연결 이미지
-![image](images/hw-504.jpg)
+<!-- ![image](images/hw-504.jpg) -->
+<img src="images/hw-504.jpg" width="200" height="200"/>
 
 ## 📋 시스템 요구사항
 
