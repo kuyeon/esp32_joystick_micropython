@@ -54,7 +54,7 @@ print(f"X: {x:.2f}, Y: {y:.2f}, 버튼: {button}")
 | `read()` | 정규화된 값 읽기 | (-1.0 ~ 1.0, -1.0 ~ 1.0, True/False) |
 | `read_raw()` | 원시 ADC 값 읽기 | (0 ~ 4095, 0 ~ 4095, 0/1) |
 | `read_direction()` | 8방향 문자열 | ("중앙", "위", "오른쪽" 등) |
-| `read_angle_magnitude()` | 각도와 크기 | (0 ~ 360도, 0.0~1.0) |
+| `read_angle_magnitude()` | 각도와 크기 | (0 ~ 360도, 0.0 ~ 1.0) |
 | `read_values_string()` | 문자열 형식 | "x, y, button" |
 
 ## 💡 사용 예제
@@ -100,11 +100,11 @@ joy.calibrate()
 ## 🎮 조이스틱 방향
 
 ```
-    위(위)
-      |
+           위(위)
+            |
 왼쪽(왼쪽) --+-- 오른쪽(오른쪽)
-      |
-    아래(아래)
+            |
+          아래(아래)
 ```
 
 - **중앙**: (0, 0)
@@ -128,7 +128,7 @@ joy.calibrate()
 
 - **ADC1**: GPIO1~GPIO10 (10채널)
 - **ADC2**: GPIO11~GPIO20 (10채널)
-- **현재 사용**: GPIO12(ADC2_CH1), GPIO13(ADC2_CH2), GPIO11(ADC2_CH0)
+- **현재 사용**: GPIO11(ADC2_CH0), GPIO12(ADC2_CH1), GPIO13(ADC2_CH2)
 
 ## 🧪 테스트 실행
 

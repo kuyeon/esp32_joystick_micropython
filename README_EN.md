@@ -100,11 +100,11 @@ joy.calibrate()
 ## 🎮 Joystick Directions
 
 ```
-    Up(Up)
-      |
+            Up(Up)
+             |
 Left(Left) --+-- Right(Right)
-      |
-   Down(Down)
+             |
+           Down(Down)
 ```
 
 - **Center**: (0, 0)
@@ -128,7 +128,7 @@ Left(Left) --+-- Right(Right)
 
 - **ADC1**: GPIO1~GPIO10 (10 channels)
 - **ADC2**: GPIO11~GPIO20 (10 channels)
-- **Current Usage**: GPIO12(ADC2_CH1), GPIO13(ADC2_CH2), GPIO11(ADC2_CH0)
+- **Current Usage**: GPIO11(ADC2_CH0), GPIO12(ADC2_CH1), GPIO13(ADC2_CH2)
 
 ## 🧪 Test Execution
 
@@ -137,13 +137,3 @@ Left(Left) --+-- Right(Right)
 from joystick import main
 main()
 ```
-
-## 📄 License
-
-This project is distributed under the MIT License.
-
----
-
-**Author**: ESP32-S3 Joystick Library  
-**Version**: 1.0.0  
-**Last Updated**: 2024
