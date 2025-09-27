@@ -5,18 +5,19 @@ ESP32-S3 보드용 조이스틱 모듈 라이브러리입니다.
 ## 📋 시스템 요구사항
 
 - **보드**: ESP32-S3
+- **조이스틱 모듈**: HW-504
 - **펌웨어**: MicroPython v1.26.1
 - **펌웨어 파일**: `ESP32_GENERIC_S3-20250911-v1.26.1.bin`
 
 ## 📌 하드웨어 연결
 
 ```
-조이스틱 모듈    ESP32-S3
-VCC          -> 3.3V
-GND          -> GND
-VRX          -> GPIO12
-VRY          -> GPIO13
-SW           -> GPIO11
+HW-504 조이스틱    ESP32-S3
+VCC              -> 3.3V
+GND              -> GND
+VRX              -> GPIO12
+VRY              -> GPIO13
+SW               -> GPIO11
 ```
 
 ## 🚀 빠른 시작
