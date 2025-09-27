@@ -5,7 +5,7 @@ A joystick module library for ESP32-S3 board.
 ## 📸 Image
 
 ### Hardware Connection Image
-![Hardware Connection](images/hw-504.jpg)
+<img src="images/hw-504.jpg" width="400" height="400"/>
 
 ## 📋 System Requirements
 
@@ -51,11 +51,11 @@ print(f"X: {x:.2f}, Y: {y:.2f}, Button: {button}")
 
 | Method | Description | Return Value |
 |--------|-------------|--------------|
-| `read()` | Read normalized values | (-1.0~1.0, -1.0~1.0, True/False) |
-| `read_raw()` | Read raw ADC values | (0~4095, 0~4095, 0/1) |
+| `read()` | Read normalized values | (-1.0 ~ 1.0, -1.0 ~ 1.0, True/False) |
+| `read_raw()` | Read raw ADC values | (0 ~ 4095, 0 ~ 4095, 0/1) |
 | `read_direction()` | 8-direction string | ("Center", "Up", "Right" etc.) |
-| `read_angle_magnitude()` | Angle and magnitude | (0~360°, 0.0~1.0) |
-| `read_values_string()` | String format | "x|y|button" |
+| `read_angle_magnitude()` | Angle and magnitude | (0 ~ 360°, 0.0 ~ 1.0) |
+| `read_values_string()` | String format | "x, y, button" |
 
 ## 💡 Usage Examples
 
